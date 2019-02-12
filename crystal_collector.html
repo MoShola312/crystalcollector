@@ -3,24 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="ccollector.css"></style>
   </head>
   <body>
-    <style media="screen">
-      img {
-        width: 100px
-      }
-      #goal {
-        background-color: green;
-        width: 200px;
-        height: 100px;
-      }
-      #total{
-        align: flex;
-        background-color: blue;
-        width: 200px;
-        height: 100px;
-      }
-    </style>
+
     <div>
       <div id=goal></div>
         <div id=total>
@@ -32,8 +18,15 @@
           <img id="green" src="green.png" alt="">
           <img id="purple" src="purple.png" alt="">
           <img id="emerald" src="emerald.png" alt="">
-
+        </div>
+        <div>
+          <p>Your total score is:<span id="currentScore"> </span>
         </div>
     </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript" src="ccollector.js"></script>
   </body>
 </html>

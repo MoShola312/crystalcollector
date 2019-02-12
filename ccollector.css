@@ -1,0 +1,16 @@
+
+img {
+  width: 100px;
+  margin: 15px;
+}
+#goal {
+  background-color: green;
+  width: 200px;
+  height: 100px;
+}
+#total{
+
+  background-color: blue;
+  width: 200px;
+  height: 100px;
+}
